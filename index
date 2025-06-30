@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Radiologique</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .main-content {
+      margin-top: -50px;
+      width: 100vw;
+      height: calc(100vh + 50px); /* Add 50px to compensate for the upward shift */
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="main-content">
+    <iframe src="https://awalha.wixsite.com/radiologique" allowfullscreen></iframe>
+  </div>
+</body>
+</html>
